@@ -1,0 +1,86 @@
+.configuration_platon{
+    background-color:#f8f8f8;
+    border-radius:10px;
+    padding:10px;
+    margin-bottom:20px;
+    box-shadow: 0 0 5px #ccc;
+    width: 50%;
+}
+.config_platon h3, .configuration_platon h3{
+    color:#1c3a85;font-size:24px;
+}
+
+.configuration_platon h3{
+    height:40px;
+    padding-left:9px;
+    padding-top:5px;
+}
+
+.configuration_platon form{
+    padding:0px 10px 0px 10px;
+}
+
+.configuration_platon ul{
+    padding:0;
+}
+
+.configuration_platon ul li{
+    list-style-type: none;
+}
+
+.configuration_platon label, .configuration_platon .label_platon{
+    font-size:15px;
+    color:#009cdd; 
+    font-family: 'alwyn_new_rgregular';
+    width:100% !important;
+    text-align:left!important;
+    font-weight:normal !important;
+    padding:0 !important;
+}
+
+.configuration_platon input.input_platon[type="text"]{
+    margin-bottom:10px; 
+    width:60%;
+    margin-top:5px;
+    padding:3px;
+}
+
+.configuration_platon .caption{
+    color:#7e7e7e;
+    font-style: italic;
+    font-size: 12px;
+    font-family:#arial;
+}
+
+.md-btn, .button-form_platon{ 
+    color: #FFF; 
+    text-align: center; 
+    padding: 8px 15px; border-radius: 6px; 
+    box-shadow: 0 0 5px #575757; 
+    border: none; font-size: 1.3em;
+    background: #bacf38;  /* Old browsers */
+    background: -moz-linear-gradient(top, #bacf38 1%, #648a3c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#bacf38), color-stop(100%,#648a3c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #bacf38 1%,#648a3c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #bacf38 1%,#648a3c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #bacf38 1%,#648a3c 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #bacf38 1%,#648a3c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bacf38', endColorstr='#648a3c',GradientType=0 ); /* IE6-9 */
+}
+
+.md-btn:hover .button-form_platon:hover { 
+    color: #FFF;
+    background: #9de2ff; /* Old browsers */
+    background: -moz-linear-gradient(top, #9de2ff 1%, #009cdd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#9de2ff), color-stop(100%,#009cdd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #9de2ff 1%,#009cdd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #9de2ff 1%,#009cdd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #9de2ff 1%,#009cdd 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #9de2ff 1%,#009cdd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9de2ff', endColorstr='#009cdd',GradientType=0 ); /* IE6-9 */
+}
+
+.nobootstrap input[type="submit"]{
+    color:#fff;
+    padding:10px;
+}
